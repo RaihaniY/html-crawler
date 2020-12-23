@@ -3,7 +3,7 @@ from urllib.parse import urljoin
 from urllib.request import urlopen
 
 # Change this to import from whatever file holds the Collector class
-from htmlParsersInClass import Collector
+from htmlParsers import Collector
 
 class Crawler(object):
 
